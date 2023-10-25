@@ -1,0 +1,84 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.hornaListaFlexContainer {
+    border: 1px solid black;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.hornaListaFlexContainer, .hornaListaJednaPolozka {
+    background-color: orange;
+}
+
+.hornaListaJednaPolozka {
+    /* width: 15rem; */
+
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.loginKontajner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 10rem;
+
+    color: black;
+    /* border: 1px solid black; */
+}
+
+.loginPolozka {
+    padding: 0.5rem;
+    /* display:block; */
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.tlacitko {
+    color: white;
+    background-color: orange;
+    border: none;
+    cursor: pointer;
+
+    padding: 12px 20px;
+}
+
+button:hover {
+    opacity: 0.5;
+}
+
+input[type=text], input[type=password] {
+    /* width: 30rem; */
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 8px;
+    display: inline-block;
+    border: 1px solid #888484;
+    /* box-sizing: border-box; */
+}
+
+.nazovStranky {
+    padding-right: 5%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    margin: 1 1;
+
+    font-size: 200%;
+}
+
+b {
+    color: black;
+    font-size: 1.5rem;
+}

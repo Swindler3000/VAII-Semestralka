@@ -2,25 +2,49 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <html>
 <head>
-    <title>Your Website Name</title>
+    <link rel="stylesheet" href="LoginStranka.css">
+    <title>Bazar-Login</title>
 </head>
 <body>
-    <header>
-        <h1><a href="./HlavnaStranka.html">Bazar</a></h1>
-    </header>
+    <div class = "hornaListaFlexContainer">
+        <div class="nazovStranky">
+            <a href="./HlavnaStranka.html">
+                <div>Bazar</div>    
+            </a>
+        </div>
+        
+        <div class = "hornaListaJednaPolozka">
+            <div class = "pravaStrana">
+                <a href="./HlavnaStranka.html">
+                    <div>Back</div>
+                </a>
+            </div>
+        </div>
+    </div>
 
-    <main>
-        <!-- Your website content goes here -->
-    </main>
-
-    <footer>
-        <p>Contact Information:</p>
-        <address>
-            Your Name<br>
-            Your Address<br>
-            Phone: (123) 456-7890<br>
-            Email: your.email@example.com
-        </address>
-    </footer>
+    <form>
+        <div class = "loginKontajner">
+            <div class = "loginPolozka">
+                <label for="uname"><b>Username: </b></label>
+                <input type="text" placeholder="Enter Username" name="uname" required>
+            </div>
+    
+            <div class = "loginPolozka">
+                <label for = "psw"><b>Password: </b></label>
+                <input type = "password" placeholder="Enter Password" name="psw" required>
+            </div>
+    
+            <div class = "loginPolozka">
+                <button class = "tlacitko" type="submit">Login</button>
+                <button class = "tlacitko" type="submit">Register</button>
+            </div>
+    
+            <div class = "loginPolozka">
+                <label>
+                    <input type = "checkbox" checked="checked" name="remember"> Remember me
+                </label>
+            </div>
+        </div>
+    </form>
 </body>
 </html>

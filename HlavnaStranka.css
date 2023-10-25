@@ -1,5 +1,9 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+}
+
 .hornaListaFlexContainer {
-    background-color: white;
     border: 1px solid black;
 
     display: flex;
@@ -8,23 +12,82 @@
     padding: 1rem 2rem;
 }
 
-.logoStranky {
-    background-color: white;
-
-    font-size: 3rem;
-    font-family: 'Courier New', Courier, monospace;
-    text-decoration: none;
+.hornaListaFlexContainer, .hornaListaPravaStrana, .hornaListaJednaPolozka {
+    background-color: orange;
 }
 
-.preklikNaLogin {
-    background-color: white;
+.hornaListaPravaStrana {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    white-space: nowrap;
+}
 
-    font-size: 3rem;
-    font-family: 'Courier New', Courier, monospace;
+.hornaListaJednaPolozka {
+    padding-right: 1rem;
+}
+
+.fontHornaLista {
+    color: white;
     text-decoration: none;
+    font-size: 2rem;
+}
+
+.inputNaHladanie {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.tlacitkoVyhladania {
+    color: white;
+    background-color: orange;
+    border: none;
+    cursor: pointer;
+
+    padding: 12px 20px;
+}
+
+.tlacitkoVyhladania:hover {
+    opacity: 0.5;
+}
+
+.kategorieFlexContainer {
+    border: 1px solid black;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1rem 2rem;
+    margin: 1rem 1rem;
+}
+
+.kategoria {
+    color: white;
+    background-color: orange;
+    padding: 4rem 7rem;
+    margin: 1rem;
+}
+
+.ikonkaKategorie {
+    /* TODO */
+    /* height: 50px; */
+    /* width: 50px; */
 }
 
 a {
-    color: black;
+    color: white;
     text-decoration: none;
+    font-size: 1rem;
+}
+
+.spodnaLista {
+    background-color: rgb(68, 66, 66);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+
+    text-wrap: wrap;
 }

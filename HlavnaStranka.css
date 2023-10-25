@@ -1,0 +1,30 @@
+.hornaListaFlexContainer {
+    background-color: white;
+    border: 1px solid black;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.logoStranky {
+    background-color: white;
+
+    font-size: 3rem;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+}
+
+.preklikNaLogin {
+    background-color: white;
+
+    font-size: 3rem;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}

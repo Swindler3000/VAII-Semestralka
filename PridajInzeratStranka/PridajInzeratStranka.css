@@ -39,47 +39,17 @@ body {
     font-size: 2rem;
 }
 
-.inputNaHladanie {
-    text-align: center;
-    padding-top: 5%;
-    padding-bottom: 5%;
-}
-
-.tlacitkoVyhladania {
-    color: white;
-    background-color: orange;
-    border: none;
-    cursor: pointer;
-
-    padding: 12px 20px;
-}
-
-.tlacitkoVyhladania:hover {
-    opacity: 0.5;
-}
-
-.kategorieFlexContainer {
-    border: 1px solid black;
+.pridajInzeratKontajner {
+    background-color: rgb(220, 179, 119);
+    margin: 2rem 20rem;
 
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 1rem 2rem;
-    margin: 1rem 1rem;
 }
 
-.kategoria {
-    color: white;
-    background-color: orange;
-    padding: 4rem 7rem;
-    margin: 1rem;
+.test {
+    margin: 0 2rem;
 }
 
-.ikonkaKategorie {
-    /* TODO */
-    /* height: 50px; */
-    /* width: 50px; */
-}
 
 .spodnaLista {
     background-color: rgb(68, 66, 66);

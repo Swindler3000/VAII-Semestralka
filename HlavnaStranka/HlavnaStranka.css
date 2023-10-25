@@ -91,3 +91,7 @@ a {
 
     text-wrap: wrap;
 }
+
+.spodnaLista p {
+    color: white;
+}

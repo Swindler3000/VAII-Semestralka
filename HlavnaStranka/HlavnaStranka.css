@@ -12,6 +12,12 @@ body {
     padding: 1rem 2rem;
 }
 
+.hornaListaFlexContainer a, .kategorieFlexContainer a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
 .hornaListaFlexContainer, .hornaListaPravaStrana, .hornaListaJednaPolozka {
     background-color: orange;
 }
@@ -75,12 +81,6 @@ body {
     /* width: 50px; */
 }
 
-a {
-    color: white;
-    text-decoration: none;
-    font-size: 1rem;
-}
-
 .spodnaLista {
     background-color: rgb(68, 66, 66);
 
@@ -93,5 +93,11 @@ a {
 }
 
 .spodnaLista p {
-    color: white;
+    color: rgb(108, 103, 103);
+}
+
+.spodnaLista a {
+    color: rgb(108, 103, 103);
+    text-decoration: none;
+    text-align: left;
 }
